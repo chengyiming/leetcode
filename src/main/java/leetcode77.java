@@ -23,4 +23,10 @@ public class leetcode77 {
             tmp.remove(tmp.size() - 1);
         }
     }
+
+    public static void main(String[] args) {
+        leetcode77 leetcode77 = new leetcode77();
+        List<List<Integer>> combine = leetcode77.combine(4, 2);
+        combine.forEach(list->list.forEach(System.out::println));
+    }
 }
