@@ -28,5 +28,6 @@ public class leetcode77 {
         leetcode77 leetcode77 = new leetcode77();
         List<List<Integer>> combine = leetcode77.combine(4, 2);
         combine.forEach(list->list.forEach(System.out::println));
+        System.out.println(3);
     }
 }
